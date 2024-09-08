@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+*{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+}
+
+.nav-container{
+    display: flex;
+    width: 100wv;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right ul li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.nav-left{
+    max-width: 30%;
+    padding-left: 1rem;
+}
+
+.nav-right{
+    display: inline;
+    max-width: 60%;
+    margin-left: 10%;
+    float: right;
+    padding-top: 1.5rem;
+}
+
+.nav-right-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.bor{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.text-left{
+    max-width: 40%;
+    
+}
+.text-left h1{
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+}
+
+.img-right img{
+    width: 400px;
+    height: 400px;
+}
+
+.blk{
+    color: white;
+    background-color:#191A23;
+    border-radius: 14px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+.zoom{
+    width: 90px;
+    height: 40px;
+}
+
+.content{
+    display: flex;
+    gap: 40px;
+    margin-left: 2rem;
+}
+
+.sub-heading{
+    display: inline;
+    max-width: 20%;
+    background-color: #b9ff66;
+    border-radius: 7px;
+    padding: 0px 7px 0px 7px;
+}
+
+.sub-para{
+    display: inline;
+    max-width: 70%;
+}
+
+.service-block{
+    margin: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.seo{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 45px;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 80px;
+    width: 600px;
+    height: 310px;
+    border-bottom: 5px solid black;
+    background-color: #f3f3f3;
+}
+
+.seo-left h2{
+    margin-bottom: 5rem;
+    background-color: #b9ff66;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.seo-left{
+    background-color: #f3f3f3;;
+}
+.seo-right{
+    background-color: #f3f3f3;
+}
+
+.seo-right img{
+    background-color: #f3f3f3;
+}
+
+.seo-left img{
+    background-color: #f3f3f3;
+}
+
+
+.ppc{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 45px;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 80px;
+    width: 600px;
+    height: 310px;
+    border-bottom: 5px solid black;
+    background-color: #b9ff66;
+}
+
+.ppc-left h2{
+    margin-bottom: 5rem;
+    background-color: #f3f3f3;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.ppc-left{
+    background-color: #b9ff66;
+}
+.ppc-right{
+    background-color: #b9ff66;
+}
+
+.ppc-right img{
+    background-color: #b9ff66;
+}
+
+.ppc-left img{
+    background-color: #b9ff66;
+}
+
+.working{
+    display: inline;
+    max-width: 800px;
+}
+
+.cards{
+    max-width: 90vw;
+    margin-left: 2rem;
+}
+.consultation{
+    width: Fixed (1,234px)px;
+    height: Hug (279px)px;
+    padding: 41px 60px 41px 60px;
+    gap: 30px;
+    border-radius: 45px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin: 80px 0px;
+    background: #B9FF66;
+    border: 1px solid #191A23
+
+}
+
+.consultation h1{
+    background-color: #b9ff66;
+}
+
+.consultation p{
+    background-color: #b9ff66;
+}
+
+.consultation span{
+    background-color: #b9ff66;
+}
+
+.grey{
+    width: Fixed (1,234px)px;
+    height: Hug (159px)px;
+    padding: 41px 60px 41px 60px;
+    gap: 10px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F3F3F3;
+    border: 1px solid #191A23
+}
+
+.grey h1{
+    background: #F3F3F3;
+}
+
+.grey span{
+    background: #F3F3F3;
+}
